@@ -1,0 +1,23 @@
+body{
+    background: "https://images.ctfassets.net/adclj4ijug4e/5LO0pW3N2SNIQTN3DPr9zZ/ef2d3f804ec3719a3ac0d43ab3732546/social-lg.jpeg";
+}
+
+.btn-info:hover{
+    background-color:coral;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 60px;
+}
+
+@keyframes example{
+    from {
+        box-shadow: 1px 1px 38px black;
+    }
+    to{
+        box-shadow: 1px 1px 38px grey;
+    }
+}
